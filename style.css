@@ -1,0 +1,207 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    margin: 0px;
+}
+.center{
+  text-align: center;
+}
+.navbar {
+  overflow: hidden;
+  transition: 0.4s;
+  position: fixed;
+  padding: 12px;
+  width: 100%;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+  object-fit: cover;
+  background-color: rgb(7, 10, 10, 0.4)!important;
+}
+.navbar a{
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.menu{
+  margin-left: 65vw;
+}
+.header{
+  width: auto;
+  height: 48vw;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.My-Image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("key2.jpg");
+  height: 100%;
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+  position: relative;
+}
+.My-Text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+.center{
+  text-align: center;
+}
+.photo{
+  position: absolute;
+  width: 30%;
+  height: 231px;
+  left: 0px;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.about{
+  width: 100%;
+  height: 300px;
+  margin-top: 10vw;
+}
+.about-info{
+  position: absolute;
+  width: 30%;
+  height: 231px;
+  left: 0px;
+  margin-left: 20%;
+  margin-top: 80px;
+}
+.about-me{
+  position: absolute;
+  width: 50%;
+  height: 231px;
+  left: 0px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+.academics{
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  font-family: alfa slab one;
+  text-align: center;
+  height: 350px;
+  background-color: skyblue;
+}
+
+#edu-t {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin-left: 20px;
+}
+#edu-t td, #edu-t th {
+  border: 1px solid #ddd;
+  padding: 13px;
+}
+#edu-t tr:hover {
+  background-color: #ddd;
+}
+#edu-t th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #339de8;
+  color: white;
+}
+.skill-mf{
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -230px;
+}
+.skill-mf span {
+  color: #4e4e4e;
+}
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #0078ff;
+}
+.project{
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  font-family: alfa slab one;
+  text-align: center;
+  height: 350px;
+  background-color: skyblue;
+}
+#pgt-t {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+}
+#pgt-t td, #pgt-t th {
+  border: 1px solid #ddd;
+  padding: 13px;
+}
+#pgt-t tr:hover {
+  background-color: #ddd;
+}
+#edu-t th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #339de8;
+  color: white;
+}
+.academics h1{
+  font-family: alfa slab one;
+  text-align: center;
+  padding: 150px;
+}
+
+.project h1{
+  font-family: Merriweather;
+  text-align: center;
+  padding: 30px;
+}
+.contacts{
+  width: 100%;
+  height: 300px;
+  background-color: green;
+  color: white;
+}
+.center{
+  text-align: center;
+}
+.cont{
+  font-family: source snas pro;
+  width: 100%;
+}
+.abot{
+  font-family: Times New Roman;
+    font-size: 19px;
+}
+.add{
+  margin-left: 10%;
+  width: 30%;
+  font-size: 25px;
+}
+.faw{
+      padding-right: 3vw;
+      margin-bottom: 3vw;
+}
